@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-05-08T19:23:08.109Z",
+    "end": "2024-05-08T19:23:12.325Z",
+    "duration": 4216,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ba498d0e-43ab-4eb9-91fb-e8e6cb6f5a4a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login-sucesso.cy.js",
+      "file": "cypress\\e2e\\login-sucesso.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7b600435-5471-430e-a4b8-b4409cecaf2f",
+          "title": "Página de login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve preencher os campos do login corretamente e autenticar o usuário na página",
+              "fullTitle": "Página de login Deve preencher os campos do login corretamente e autenticar o usuário na página",
+              "timedOut": null,
+              "duration": 2384,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.get('[data-test=\"input-loginEmail\"]').type(\"dosantosbru@icloud.com\");\ncy.get('[data-test=\"input-loginPassword\"]').type(\"Senha123\");\ncy.get('[data-test=\"submit-button\"]').click();",
+              "err": {},
+              "uuid": "bcadef6f-0d07-477f-b42f-1effeec49a69",
+              "parentUUID": "7b600435-5471-430e-a4b8-b4409cecaf2f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "bcadef6f-0d07-477f-b42f-1effeec49a69"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2384,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
