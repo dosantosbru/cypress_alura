@@ -10,5 +10,8 @@ cypress/reports/*
 cypress/screenshots/*
 cypress/videos/*
 node_modules/*
+*.tmp
+/.env
+/logs
 
 # End of https://www.toptal.com/developers/gitignore/api/cypressio
